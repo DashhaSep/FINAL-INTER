@@ -1,0 +1,104 @@
+/* МЕНЮ */
+.menu-right {
+  display: flex;
+  gap: 4.65vw;
+}
+p {
+  font-family: "Inter";
+}
+a {
+  text-decoration: none;
+}
+.menu-options {
+  color: black;
+  font-size: 0.9vw;
+}
+.inter {
+  font-weight: 900;
+  color: black;
+}
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+.menu-options:hover {
+  text-decoration: underline;
+}
+
+/* //
+МАГАЗИН 
+// */
+
+.card {
+  background-color: #f0f0f0;
+  width: 23.26vw;
+  height: 27.91vw;
+  margin-top: 2vw;
+  margin-left: 1vw;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(0.9);
+}
+.card-name,
+.card-price {
+  position: absolute;
+  font-size: 0.9vw;
+  padding-left: 1vw;
+}
+.card-name {
+  padding-top: 1.5vw;
+}
+.card-price {
+  color: #929292;
+  padding-top: 25.5vw;
+}
+.cap-small {
+  position: absolute;
+  width: 15.138vw;
+  height: 16.25vw;
+  margin-left: 4vw;
+  margin-top: 6vw;
+}
+
+/* //
+ОШИБКА 404
+//  */
+.error,
+.error-text {
+  text-align: center;
+}
+.error {
+  font-size: 17.152vw;
+  font-weight: 500;
+  margin-top: 8vw;
+}
+.error-text {
+  color: #626262;
+  font-size: 1.736vw;
+  font-style: normal;
+  line-height: 1.6;
+}
+.back-to-main {
+  background-color: black;
+  color: white;
+  width: 31.04vw;
+  /* height: 4.166vw; */
+  font-size: 1.3194vw;
+  text-align: center;
+  padding: 2vw;
+  transition: transform 0.3s ease-in-out;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vw;
+}
+.back-to-main:hover {
+  text-decoration: underline;
+  transform: scale(0.95);
+}

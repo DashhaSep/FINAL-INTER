@@ -70,11 +70,12 @@ a {
   height: 4vw;
   border-radius: 100%;
   background-color: black;
-  margin-left: 93vw;
-  margin-top: 12vw;
   position: fixed;
+  bottom: 20px;
+  right: 20px;
   transition: transform 0.2s ease-in-out;
 }
+
 .korzina:hover {
   transform: scale(0.92);
 }

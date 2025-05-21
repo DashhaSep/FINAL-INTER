@@ -8,6 +8,7 @@ p {
 }
 a {
   text-decoration: none;
+  text-decoration-color: black;
 }
 .menu-options {
   color: black;
@@ -51,6 +52,7 @@ a {
 }
 .card-name {
   padding-top: 1.5vw;
+  color: black;
 }
 .card-price {
   color: #929292;
@@ -63,7 +65,19 @@ a {
   margin-left: 4vw;
   margin-top: 6vw;
 }
-
+.korzina {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 100%;
+  background-color: black;
+  margin-left: 93vw;
+  margin-top: 12vw;
+  position: fixed;
+  transition: transform 0.2s ease-in-out;
+}
+.korzina:hover {
+  transform: scale(0.92);
+}
 /* //
 ОШИБКА 404
 //  */

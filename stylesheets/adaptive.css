@@ -1,0 +1,100 @@
+/* body {
+  background-image: url(../images/iphone-shop.jpg);
+  width: 390px;
+  height: 2155px;
+  opacity: 0.5;
+} */
+@media screen and (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    border: none;
+    background-color: transparent;
+  }
+  #burger {
+    display: block;
+    width: 40px;
+    height: 26px;
+    margin-left: 85vw;
+    margin-top: 6vw;
+    cursor: pointer;
+    position: relative;
+  }
+  #burger::before,
+  #burger::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #111;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+  }
+  #burger::before {
+    top: 0;
+    box-shadow: 0 25px 0 #111;
+  }
+  #burger::after {
+    top: 13px;
+  }
+  #burger.active::before {
+    transform: rotate(45deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    top: 12px;
+    transition: transform ease 0.6s, box-shadow 0.1s, top ease 0.6s;
+  }
+  #burger.active::after {
+    transform: rotate(-45deg);
+    transition: transform ease 0.3s;
+  }
+  .main-menu {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    background-color: #ffffff;
+    transition: transform ease 0.3s;
+    transform: translateX(100%);
+  }
+  #burger.active + .main-menu {
+    transform: translateX(0);
+    transition: transform ease 0.6s;
+    z-index: 1;
+    margin-top: 7vw;
+  }
+  .links {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    margin-left: 2vw;
+  }
+  .main-menu a {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .main-menu a::before {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background-image: url("https://img.icons8.com/ios/50/long-arrow-right--v2.png");
+    background-size: contain;
+    position: absolute;
+    right: 30px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  .main-menu a:hover::before {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+  .menu-options {
+    color: black;
+    font-size: 5vw;
+  }
+}

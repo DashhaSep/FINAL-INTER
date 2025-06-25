@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inter</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="javascripts/index.js"></script>
+  </head>
+  <body>
+    <!-- МЕНЮ -->
+    <div class="menu">
+      <div class="mune-left">
+        <a href="index.html"><p class="inter">INTER</p></a>
+      </div>
+      <div class="menu-right">
+        <a href="exhibition.html"><p class="menu-options">ВЫСТАВКИ</p></a>
+        <a href="workshops.html"><p class="menu-options">МАСТЕР-КЛАССЫ</p></a>
+        <a href="about.html"><p class="menu-options">О НАС</p></a>
+        <a href="online-gallery.html">
+          <p class="menu-options">ОНЛАЙН-ВЫСТАВКА</p></a
+        >
+        <a href="shop.html"><p class="menu-options">МАГАЗИН</p></a>
+
+        <a href="archive.html"><p class="menu-options">АРХИВ</p></a>
+      </div>
+    </div>
+    <div class="c-img-plus-text">
+      <div class="c-page-card">
+        <img
+          class="card-page-cap-big"
+          src="images/card-page-cap-big.svg"
+          alt=""
+        />
+      </div>
+      <div class="c-full-text-descr">
+        <p class="c-title">КЕПКА “ИНТЕР”</p>
+        <p class="c-article">АРТИКУЛ: 115AAA56</p>
+        <p class="c-price">4 500 Р</p>
+        <p class="c-size">РАЗМЕР</p>
+        <div class="c-sizes-options">
+          <p class="c-size-option">S</p>
+          <p class="c-size-option">M</p>
+          <p class="c-size-option">L</p>
+        </div>
+        <button
+          onclick="addToCart({ id: 11112, name: 'КЕПКА “ИНТЕР”', price: 500 })"
+        >
+          <div class="c-add-to-container">
+            <p class="c-add-to-cart">ДОБАВИТЬ В КОРЗИНУ</p>
+          </div>
+        </button>
+        <p class="c-describtion">
+          Кепка музея камней — это минимализм, вдохновлённый <br />природой.
+          Выполненная в спокойных серых тонах <br />с акцентами натуральной
+          фактуры, она отражает<br />
+          эстетику камня — сдержанную, вечную<br />
+          и выразительную. На передней панели — лаконичный <br />логотип музея:
+          силуэт минерала или абстрактный <br />геометрический знак,
+          напоминающий о структуре <br />кристаллов. Изготовлена из плотного
+          хлопка с матовой <br />текстурой, мягкая на ощупь, но держит форму.
+          Подойдёт <br />как для города, так и для путешествий — <br />и всегда
+          напомнит о том, что красота — в деталях.
+        </p>
+      </div>
+    </div>
+    <p class="c-might-like">ВАМ МОЖЕТ ПОНРАВИТСЯ</p>
+    <!-- шоппер + худи + флаг + второй шоппер -->
+    <div class="c-four-card">
+      <!-- шоппер -->
+      <a href="item-card-2.html">
+        <div class="card">
+          <p class="card-name">Шоппер</p>
+          <img
+            class="shop-page-shopper-1"
+            src="images/shop-page-shopper-1.svg"
+            alt=""
+          />
+          <div class="shop-page-price-and-plus">
+            <p class="card-price">1 300</p>
+            <img
+              class="shop-page-plus-small"
+              src="images/plus-SHOP-PAGE.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </a>
+      <!-- худии -->
+      <a href="item-card.html">
+        <div class="card-2">
+          <p class="card-name">Худи</p>
+          <img
+            class="shop-page-hoodie-2"
+            src="images/shop-page-hoodie-2.svg"
+            alt=""
+          />
+          <div class="shop-page-price-and-plus">
+            <p class="card-price">2 300</p>
+            <img
+              class="shop-page-plus-small"
+              src="images/plus-SHOP-PAGE.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </a>
+      <!-- флаг -->
+      <a href="item-card.html">
+        <div class="card-2">
+          <p class="card-name">Флаг</p>
+          <img class="shop-page-flag" src="images/shop-page-flag.svg" alt="" />
+          <div class="shop-page-price-and-plus">
+            <p class="card-price">1 300</p>
+            <img
+              class="shop-page-plus-small"
+              src="images/plus-SHOP-PAGE.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </a>
+      <!-- второй шопеер -->
+      <a href="item-card-3.html">
+        <div class="card-2">
+          <p class="card-name">Шоппер</p>
+          <img
+            class="shop-page-shopper-2"
+            src="images/shop-page-shopper-2.svg"
+            alt=""
+          />
+          <div class="shop-page-price-and-plus">
+            <p class="card-price">2 300</p>
+            <img
+              class="shop-page-plus-small"
+              src="images/plus-SHOP-PAGE.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- КОРЗИНА ИКОНКА -->
+    <button onclick="toggleCart()">
+      <div class="korzina"><img src="images/korzina.svg" alt="" /></div>
+    </button>
+
+    <!-- ссылки подвал -->
+    <div class="exp-page-podval-links">
+      <a href="exhibition.html"
+        ><p class="the-epxpage-podval-links">ВЫСТАВКИ</p></a
+      >
+      <a href="workshops.html"
+        ><p class="the-epxpage-podval-links">МАСТЕР-КЛАССЫ</p></a
+      >
+      <a href="about.html"><p class="the-epxpage-podval-links">О НАС</p></a>
+      <a href="online-gallery.html">
+        <p class="the-epxpage-podval-links">ОНЛАЙН-ВЫСТАВКА</p></a
+      >
+      <a href="shop.html"><p class="the-epxpage-podval-links">МАГАЗИН</p></a>
+      <a href="archive.html"><p class="the-epxpage-podval-links">АРХИВ</p></a>
+    </div>
+  </body>
+</html>

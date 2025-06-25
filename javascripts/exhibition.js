@@ -4,32 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   openModalTwo();
   openModal();
   AfterPurchase();
-  // функция для набора билетов
-  let count = 1;
-  const pricePerTicket = 500;
-
-  const countDisplay = document.getElementById("count");
-  const totalDisplay = document.getElementById("total");
-
-  function updateDisplay() {
-    countDisplay.textContent = count;
-    totalDisplay.textContent = count * pricePerTicket;
-  }
-
-  document.getElementById("plus").addEventListener("click", () => {
-    count++;
-    updateDisplay();
-  });
-
-  document.getElementById("minus").addEventListener("click", () => {
-    if (count > 0) {
-      count--;
-      updateDisplay();
-    }
-  });
-
-  // начальное обновление (если нужно)
-  updateDisplay();
+  getTicket();
+  // updateDisplay();
+  showBurgerMenu();
 });
 // окно регистрации
 function openModal() {
@@ -130,5 +107,41 @@ function AfterPurchase() {
     alert(
       "Благодарим за покупку! Дальнейшая форма оплаты направлена вам на почту!"
     );
+    const modal = document.querySelector(".modal");
+
+    modal.style.display = "none";
+  });
+}
+function getTicket() {
+  let count = 1;
+  const pricePerTicket = 500;
+
+  const countDisplay = document.getElementById("count");
+  const totalDisplay = document.getElementById("total");
+
+  document.getElementById("plus").addEventListener("click", () => {
+    count++;
+    updateDisplay();
+  });
+
+  document.getElementById("minus").addEventListener("click", () => {
+    if (count > 0) {
+      count--;
+      updateDisplay();
+    }
+  });
+
+  function updateDisplay() {
+    countDisplay.textContent = count;
+    totalDisplay.textContent = count * pricePerTicket;
+  }
+}
+// ТЕЛЕФОН
+
+function showBurgerMenu() {
+  const burger = document.querySelector("#burger");
+
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
   });
 }

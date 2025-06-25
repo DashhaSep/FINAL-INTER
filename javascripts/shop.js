@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   ShopKorzina();
+  showBurgerMenu();
 });
 
 function ShopKorzina() {
@@ -60,5 +61,14 @@ function ShopKorzina() {
       cart.push({ name, price });
       updateCart();
     });
+  });
+}
+// ТЕЛЕФОН
+
+function showBurgerMenu() {
+  const burger = document.querySelector("#burger");
+
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
   });
 }

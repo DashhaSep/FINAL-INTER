@@ -56,6 +56,11 @@ body {
   margin-top: 5vw;
 } */
 /* МЕНЮ */
+body,
+html,
+body > * {
+  overflow-x: hidden;
+}
 .menu-right {
   display: flex;
   gap: 4.65vw;
@@ -691,6 +696,7 @@ a {
   gap: 3.26vw;
   margin-left: 2.5vw;
   margin-top: 2vw;
+  transition: all ease 0.6s;
 }
 .black-background-archive.active {
   height: 80vw;
@@ -702,6 +708,8 @@ a {
 }
 .mp-archive-img {
   width: 17.2vw;
+  opacity: 0;
+  transition: all ease 0.3s;
 }
 /* ПОДВАЛ MAIN PAGE */
 .podval {
@@ -1091,7 +1099,9 @@ a {
 .big-card:hover {
   transform: scale(0.9);
 }
-
+.shop-page-card-one-two-three-four-last-PHONE {
+  display: none;
+}
 /* корзина */
 
 .korzina {
@@ -1918,6 +1928,17 @@ input {
 
 /* ТЕЛЕФОН */
 .burger,
-.main-menu {
+.main-menu,
+.inter-iphone,
+.big-text-phone,
+.about-text-one-phone,
+.about-text-two-phone,
+.about-text-three-phone,
+.about-image-two-phone,
+.about-text-five-phone,
+.about-image-four-phone,
+.big-text-two-phone,
+.about-image-four-phone,
+.big-text-three-phone {
   display: none;
 }

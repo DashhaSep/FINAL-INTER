@@ -1,7 +1,7 @@
 console.log("slay");
 document.addEventListener("DOMContentLoaded", () => {
   Wrappers();
-  ArchiveBackgroundMainPage();
+  setInterval(ArchiveBackgroundMainPage(), 100);
   ReadMoreMainPage();
   // функции телефон
   showBurgerMenu();
@@ -28,15 +28,26 @@ function Wrappers() {
 function ArchiveBackgroundMainPage() {
   const trigger = document.querySelector(".kamen-dop");
   const target = document.querySelector(".black-background-archive");
+  const imgs = document.querySelectorAll(".mp-archive-img");
 
   // При наведении
   trigger.addEventListener("mouseenter", () => {
     target.classList.add("active");
+    imgs.forEach((img) => {
+      setTimeout(() => {
+        img.style.opacity = "1";
+      }, 100);
+    });
   });
 
   // При уходе курсора
   trigger.addEventListener("mouseleave", () => {
     target.classList.remove("active");
+  });
+  imgs.forEach((img) => {
+    setTimeout(() => {
+      img.style.opacity = "0";
+    }, 100);
   });
 }
 

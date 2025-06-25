@@ -1,10 +1,15 @@
 /* body {
-  background-image: url(../images/iphone-shop.jpg);
+  background-image: url(../images/phone-exhibition.jpg);
   width: 390px;
-  height: 2155px;
+  height: 10000px;
   opacity: 0.5;
+  margin-top: 20vw;
 } */
 @media screen and (max-width: 500px) {
+  body > nav {
+    overflow: hidden;
+    width: 100%;
+  }
   .menu {
     display: none;
   }
@@ -14,9 +19,9 @@
   }
   #burger {
     display: block;
-    width: 40px;
+    width: 30px;
     height: 26px;
-    margin-left: 85vw;
+    margin-left: 87vw;
     margin-top: 6vw;
     cursor: pointer;
     position: relative;
@@ -34,15 +39,15 @@
   }
   #burger::before {
     top: 0;
-    box-shadow: 0 25px 0 #111;
+    box-shadow: 0 15px 0 #111;
   }
   #burger::after {
-    top: 13px;
+    top: 7px;
   }
   #burger.active::before {
     transform: rotate(45deg);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-    top: 12px;
+    top: 7px;
     transition: transform ease 0.6s, box-shadow 0.1s, top ease 0.6s;
   }
   #burger.active::after {
@@ -50,6 +55,7 @@
     transition: transform ease 0.3s;
   }
   .main-menu {
+    display: flex;
     width: 100%;
     height: 100vh;
     flex-direction: column;
@@ -59,13 +65,14 @@
     position: absolute;
     background-color: #ffffff;
     transition: transform ease 0.3s;
-    transform: translateX(100%);
+    transform: translateX(-100%);
+    overflow: hidden;
   }
   #burger.active + .main-menu {
     transform: translateX(0);
     transition: transform ease 0.6s;
     z-index: 1;
-    margin-top: 7vw;
+    margin-top: 4vw;
   }
   .links {
     flex-direction: column;
@@ -96,5 +103,295 @@
   .menu-options {
     color: black;
     font-size: 5vw;
+  }
+
+  /* СТРАНИЧКА МАГАЗИНА */
+  .big-card {
+    display: none;
+  }
+  .card,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    width: 42.8vw;
+    height: 52.4vw;
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease;
+  }
+  .shop-page-card-one-plus-two {
+    display: flex;
+    gap: 3vw;
+    margin-left: 3vw;
+    padding-top: 3vw;
+  }
+  .shop-page-cap {
+    width: 37.468vw;
+    height: 39.75vw;
+    margin-left: 2.6vw;
+    margin-top: 2.7vw;
+  }
+  .shop-page-phonecase {
+    width: 35.625vw;
+    height: 42.51vw;
+    margin-left: 2.8vw;
+    margin-top: 0vw;
+  }
+  .shop-page-shoppers {
+    width: 42.15vw;
+    height: 44.7vw;
+    margin-top: 2.7vw;
+  }
+  .card-name {
+    color: black;
+    margin-left: 2vw;
+    padding-top: 2vw;
+  }
+  .card-name,
+  .card-price {
+    font-size: 2.3vw;
+    font-weight: 500;
+  }
+  .card-price {
+    color: #929292;
+    padding-top: 44.2vw;
+    margin-left: 2vw;
+  }
+  .shop-page-plus-small {
+    width: 9.18vw;
+    height: 4.18vw;
+    padding-top: 42vw;
+    margin-left: 24.8vw;
+  }
+  .super-big-card {
+    display: none;
+  }
+  .shop-page-card-one-two-three-four,
+  .shop-page-card-one-two-three-four-last {
+    display: block;
+  }
+  .shop-page-box {
+    width: 37.409vw;
+    height: 34.3vw;
+  }
+  .shop-page-phonecase-two {
+    width: 27.4vw;
+    height: 43.3vw;
+    margin-left: 7.6vw;
+    margin-top: -1.3vw;
+  }
+  .shop-page-organizer {
+    width: 28.76vw;
+    height: 37.94vw;
+    margin-left: 3.9vw;
+    margin-top: 2.7vw;
+  }
+  .shop-page-menu {
+    width: 34.319vw;
+    height: 34.54vw;
+    margin-left: 3.8vw;
+    margin-top: 2.7vw;
+  }
+  .notebook-t-shirt-tote-bag,
+  .big-shop-card-one-two {
+    display: none;
+  }
+  .shop-page-card-one-two-three-four-last {
+    display: none;
+  }
+  .shop-page-card-one-two-three-four-last-PHONE {
+    display: block;
+    margin-top: 0.6vw;
+    margin-left: 3vw;
+  }
+  .ROW-PHONE-AND-COMP {
+    display: flex;
+  }
+
+  .shop-page-card-one-two-three-four {
+    display: block;
+    margin-top: 0.6vw;
+    margin-left: 2vw;
+  }
+  .shop-page-hoodie-2 {
+    width: 33.88vw;
+    height: 37.5vw;
+  }
+  .shop-page-flag {
+    width: 39.38vw;
+    height: 35.23vw;
+  }
+  .shop-page-shopper-2 {
+    width: 36.56vw;
+    height: 36.09vw;
+  }
+  .shop-page-shopper-1 {
+    width: 38.25vw;
+    height: 33.59vw;
+  }
+  .inter-iphone {
+    margin-top: -6.7vw;
+    margin-left: 42vw;
+    display: flex;
+    position: absolute;
+    font-weight: 900;
+    font-size: 5.128vw;
+    text-align: center;
+    color: black;
+  }
+  .big-text,
+  .about-text-one,
+  .about-text-two,
+  .about-text-three,
+  .about-text-five,
+  .about-text-four,
+  .big-text-two,
+  .big-text-three,
+  .about-image-four,
+  .about-remarka-four {
+    display: none;
+  }
+  .big-text-three-phone,
+  .big-text-two-phone,
+  .big-text-phone {
+    display: flex;
+    font-size: 7.3vw;
+    line-height: 124%;
+  }
+  .big-text-three-phone {
+    margin-top: 24vw;
+    margin-left: 6vw;
+  }
+  .big-text-two-phone {
+    margin-top: 27vw;
+    margin-left: 6vw;
+  }
+  .big-text-phone {
+    margin-top: 15.8vw;
+    margin-left: 6.2vw;
+  }
+  .about-image-one {
+    width: 150.1vw;
+    height: 89.86vw;
+    margin-left: -25vw;
+    margin-top: 14vw;
+  }
+  .about-remarka-one-two {
+    display: flex;
+    margin-top: 1.7vw;
+  }
+  .about-remarka-one {
+    margin-left: 1.8vw;
+  }
+  .about-remarka-two {
+    margin-left: 45.6vw;
+  }
+  .about-remarka-one,
+  .about-remarka-two,
+  .about-remarka-three,
+  .about-remarka-four {
+    color: #686868;
+    font-size: 2.5vw;
+  }
+  .about-text-one-phone,
+  .about-text-two-phone,
+  .about-text-three-phone,
+  .about-text-four-phone,
+  .about-text-five-phone {
+    display: flex;
+    font-size: 4.1vw;
+    line-height: 148%;
+  }
+  .about-text-one-phone {
+    margin-top: 22.4vw;
+    margin-left: 6.2vw;
+  }
+  .about-text-two-phone {
+    margin-top: 22.4vw;
+    margin-left: 6.2vw;
+  }
+  .about-text-three-phone {
+    margin-top: 159.4vw;
+    margin-left: 6.2vw;
+  }
+  .about-text-four-phone {
+    margin-top: 28.4vw;
+    margin-left: 6.2vw;
+  }
+  .about-text-five-phone {
+    margin-top: 191.4vw;
+    margin-left: 7.2vw;
+  }
+  .about-image-two-phone {
+    display: flex;
+    position: absolute;
+    width: 97.76vw;
+    height: 120.01vw;
+    margin-left: 2.9vw;
+    margin-top: 12.7vw;
+  }
+  .about-image-two {
+    display: none;
+  }
+  .about-image-three {
+    width: 150%;
+    height: 87.15vw;
+    margin-top: 28.2vw;
+    margin-left: -25vw;
+  }
+  .about-remarka-three {
+    margin-top: 1.9vw;
+  }
+  .exp-page-text-one {
+    display: block;
+    margin-left: 5vw;
+  }
+  .exp-page-title {
+    font-size: 4.736vw;
+    margin-top: 4.4vw;
+  }
+  .about-image-four-phone {
+    display: flex;
+    width: 100vw;
+    height: 129.73vw;
+    position: absolute;
+    margin-left: 0vw;
+    margin-top: 33vw;
+  }
+  .exp-page-imgtext-one,
+  .exp-page-imgtext-two,
+  .exp-page-imgtext-three,
+  .exp-page-imgtext-four {
+    display: block;
+  }
+  .exp-page-img-one {
+    margin-left: 0vw;
+    width: 101vw;
+  }
+  .exp-page-tobuy-4 p,
+  .exp-page-tobuy-3 p,
+  .exp-page-tobuy-2 p,
+  .exp-page-tobuy p {
+    font-size: 3.3vw;
+    padding-top: 4.7vw;
+    transition: all 0.3s ease-in-out;
+  }
+  .exp-page-tobuy,
+  .exp-page-tobuy-2,
+  .exp-page-tobuy-3,
+  .exp-page-tobuy-4 {
+    width: 90.3vw;
+    height: 13.23vw;
+  }
+  .exp-page-date {
+    color: #8a8a8a;
+    margin-top: 1.4vw;
+    font-size: 2.5vw;
+  }
+  .exp-page-describtion {
+    font-size: 3.18vw;
+    margin-top: 2.6vw;
+    line-height: 164%;
   }
 }

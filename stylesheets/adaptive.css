@@ -395,4 +395,175 @@
     margin-top: 2.6vw;
     line-height: 164%;
   }
+  .ex-moto {
+    font-size: 5.4vw;
+  }
+  .ex-moto-plus-link {
+    display: block;
+  }
+  .ex-moto-link {
+    font-size: 3vw;
+    margin-left: 1.4vw;
+  }
+  .arrow-main-page {
+    margin-left: 29.3vw;
+    margin-top: 9.3vw;
+  }
+  .arrow-main-page,
+  .arrow-main-page-white,
+  .arrow-main-page-wrkshp,
+  .arrow-main-page-shop,
+  .arrow-main-page-white-archive {
+    width: 5.9vw;
+    height: 2.9vw;
+    position: absolute;
+  }
+  .main-ex-one {
+    width: 70.4vw;
+    height: 73.4vw;
+    margin-top: 16.5vw;
+    margin-left: 2vw;
+  }
+  .main-ex-two,
+  .main-ex-three,
+  .main-ex-four,
+  .main-ex-five,
+  .main-ex-six,
+  .ex-one-title,
+  .ex-one-data,
+  .ex-two-title,
+  .ex-two-data,
+  .ex-three-title,
+  .ex-three-data,
+  .ex-four-title,
+  .ex-four-data,
+  .ex-five-title,
+  .ex-five-data,
+  .ex-six-title,
+  .ex-six-data {
+    position: relative;
+    display: block;
+  }
+  .main-ex-two {
+    width: 59.4vw;
+    height: 35.4vw;
+    margin-left: 37.7vw;
+    margin-top: 19.5vw;
+  }
+  .main-ex-three {
+    width: 55.95vw;
+    height: 34.23vw;
+    margin-top: 20vw;
+    margin-left: 2.4vw;
+  }
+  .main-ex-four {
+    width: 81.02vw;
+    height: 97.01vw;
+    margin-left: 16.7vw;
+    margin-top: 26.7vw;
+  }
+  .main-ex-five {
+    width: 54.4vw;
+    height: 97.98vw;
+    margin-top: 21vw;
+    margin-left: 2.5vw;
+  }
+  .main-ex-six {
+    width: 50.47vw;
+    height: 62.97vw;
+    margin-top: 18.2vw;
+    margin-left: 47.2vw;
+  }
+  .main-ex-two,
+  .main-ex-three,
+  .main-ex-four,
+  .main-ex-five,
+  .main-ex-six {
+    position: relative;
+  }
+  .ex-one-title,
+  .ex-one-data,
+  .ex-two-title,
+  .ex-two-data,
+  .ex-three-title,
+  .ex-three-data,
+  .ex-four-title,
+  .ex-four-data,
+  .ex-five-title,
+  .ex-five-data,
+  .ex-six-title,
+  .ex-six-data {
+    /* position: relative; */
+    display: block;
+    position: absolute;
+  }
+  .ex-one-title,
+  .ex-one-data,
+  .ex-two-title,
+  .ex-two-data,
+  .ex-three-title,
+  .ex-three-data,
+  .ex-four-title,
+  .ex-four-data,
+  .ex-five-title,
+  .ex-five-data,
+  .ex-six-title,
+  .ex-six-data {
+    font-weight: 500;
+    font-size: 2.1vw;
+  }
+  .ex-one-title,
+  .ex-one-data {
+    margin-top: -431vw;
+  }
+  .ex-two-title,
+  .ex-two-data {
+    margin-top: -376vw;
+  }
+  .ex-two-title {
+    margin-left: 37.8vw;
+  }
+  .ex-two-data {
+    margin-left: 71.5vw;
+  }
+  .ex-three-title,
+  .ex-three-data {
+    margin-top: -321.6vw;
+  }
+  .ex-three-title {
+    margin-left: 2.6vw;
+  }
+  .ex-three-data {
+    margin-left: 32.6vw;
+  }
+  .ex-four-title,
+  .ex-four-data {
+    margin-top: -198.7vw;
+  }
+  .ex-four-title {
+    margin-left: 16.7vw;
+  }
+  .ex-four-data {
+    margin-left: 72.6vw;
+  }
+  .ex-five-title,
+  .ex-five-data {
+    margin-top: -79vw;
+  }
+  .ex-five-title {
+    margin-left: 2.6vw;
+  }
+  .ex-five-data {
+    margin-left: 31.9vw;
+  }
+  .ex-six-title,
+  .ex-six-data {
+    margin-top: 2vw;
+  }
+  .ex-six-title {
+    margin-left: 47vw;
+  }
+  .ex-six-data {
+    margin-left: 71.9vw;
+  }
 }

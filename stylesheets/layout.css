@@ -56,11 +56,11 @@ body {
   margin-top: 5vw;
 } */
 /* МЕНЮ */
-body,
+/* body,
 html,
 body > * {
   overflow-x: hidden;
-}
+} */
 .menu-right {
   display: flex;
   gap: 4.65vw;
@@ -613,7 +613,13 @@ a {
   background-color: #f0f0f0;
   transition: scale 0.3s ease;
 }
-
+.shopper-and-hoodie-mp-phone,
+.flag-and-shopper2-mp-phone {
+  display: flex;
+}
+.rows-as-flex-in-two-blocks {
+  display: flex;
+}
 .mp-card-four-border {
   transition: scale 0.3s ease;
 }
@@ -1984,6 +1990,9 @@ input {
 .about-image-four-phone,
 .big-text-two-phone,
 .about-image-four-phone,
-.big-text-three-phone {
+.big-text-three-phone,
+.descr-one-phone,
+.descr-two-phone,
+.wrsh-img-phone {
   display: none;
 }

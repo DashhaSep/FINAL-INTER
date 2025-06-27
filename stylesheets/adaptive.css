@@ -250,7 +250,13 @@
   .big-text-three,
   .about-image-four,
   .about-remarka-four,
-  .about-end-images {
+  .about-end-images,
+  .descr-one,
+  .rock-one,
+  .rock-two,
+  .rock-three,
+  .rock-four,
+  .descr-two {
     display: none;
   }
   .big-text-three-phone,
@@ -565,5 +571,168 @@
   }
   .ex-six-data {
     margin-left: 71.9vw;
+  }
+  .descr-one-phone,
+  .descr-two-phone {
+    display: flex;
+    text-align: center;
+  }
+  .descr-one-phone {
+    font-size: 7.5vw;
+    margin-top: 23.6vw;
+    margin-left: 5vw;
+  }
+  .descr-two-phone {
+    color: #9d9d9d;
+    font-size: 4.1vw;
+    margin-top: 14vw;
+    margin-left: 9vw;
+    line-height: 120%;
+  }
+  .descr-readnext-container {
+    width: 70.7vw;
+    height: 12.3vw;
+    background-color: black;
+    align-content: center;
+    margin-left: 15.3vw;
+    margin-top: 15.7vw;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .descr-readnext {
+    font-size: 3.84vw;
+    color: white;
+    text-align: center;
+  }
+  .onlinegallery-moto {
+    font-size: 5.4vw;
+    padding-top: 11.4vw;
+  }
+  .onlinegallery-moto-link {
+    margin-top: 5.8vw;
+    font-size: 3vw;
+    margin-left: 2.7vw;
+    padding-bottom: 4vw;
+  }
+  .images-ongl {
+    margin-top: 10vw;
+    height: 73.55vw;
+  }
+  .onlain-gallery {
+    height: 173vw;
+  }
+  .slider img {
+    width: 100vw;
+  }
+  .slider {
+    animation: slideX 25s linear infinite;
+  }
+  .arrow-main-page-white {
+    margin-left: 31.3vw;
+    margin-top: -6.9vw;
+  }
+  .all-ongl-text {
+    display: block;
+  }
+  .ongl-text {
+    font-size: 3.2vw;
+    padding-top: 6vw;
+  }
+  .workshop-moto-link {
+    margin-top: 6vw;
+    font-size: 3vw;
+    margin-left: 1.9vw;
+  }
+  .arrow-main-page-wrkshp {
+    margin-top: -3vw;
+    margin-left: 29.7vw;
+  }
+  .workshop-moto {
+    margin-top: 17vw;
+  }
+  .img-wrsh-wrapper {
+    display: none;
+  }
+  .wrsh-img-phone {
+    display: flex;
+    height: 125vw;
+    margin-top: 10vw;
+  }
+  .workshop-moto,
+  .archive-moto,
+  .shop-moto {
+    font-size: 5vw;
+  }
+  .shop-moto-link {
+    margin-top: -1vw;
+    font-size: 3vw;
+    margin-left: 1.9vw;
+    margin-top: 6vw;
+  }
+  .arrow-main-page-shop {
+    margin-left: 30.3vw;
+    margin-top: -2.9vw;
+  }
+  .shop-page-card-one-two-three-four {
+    display: none;
+  }
+  .shopper-and-hoodie-mp-phone,
+  .flag-and-shopper2-mp-phone {
+    display: flex;
+    margin-top: 7vw;
+    margin-left: 5vw;
+  }
+  .rows-as-flex-in-two-blocks {
+    display: block;
+  }
+  .archive-moto-plus-link {
+    margin-top: 13.9vw;
+  }
+  .archive-moto-link {
+    margin-top: 21.2vw;
+    font-size: 3vw;
+    margin-left: -57vw;
+  }
+  .archive-moto {
+    margin-top: 8vw;
+  }
+  .black-background-archive {
+    height: 124vw;
+  }
+  .kamen-mesta-text {
+    font-size: 11vw;
+    margin-top: 7vw;
+  }
+  .dop-01 {
+    font-size: 2.38vw;
+  }
+  .arrow-main-page-white-archive {
+    margin-left: 30vw;
+    margin-top: 21.3vw;
+  }
+  .big-inter {
+    font-size: 19.458vw;
+
+    margin-top: 23vw;
+  }
+  .sentence {
+    font-size: 3vw;
+    margin-left: 2.1vw;
+    line-height: 130%;
+    margin-top: 11vw;
+  }
+  .podval-rocks-all {
+    display: none;
+  }
+  .podval-links,
+  .podval-links-g {
+    font-size: 2.6vw;
+  }
+  .podval-blocks-flex {
+    display: flex;
+    gap: 12.5vw;
+    margin-left: 2.2vw;
+    margin-top: 25.8vw;
+    padding-bottom: 14vw;
   }
 }

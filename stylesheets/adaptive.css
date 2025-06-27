@@ -831,4 +831,77 @@
   .shop-page-card-one-plus-two {
     display: none;
   }
+  .error {
+    font-size: 33.152vw;
+    font-weight: 500;
+    color: grey;
+    margin-top: 20vw;
+  }
+  .error-text-phone {
+    display: flex;
+    color: #626262;
+    font-size: 4.6vw;
+    font-style: normal;
+    margin-top: 14vw;
+    line-height: 1.6;
+    margin-left: 16vw;
+    text-align: center;
+  }
+  .error-text {
+    display: none;
+  }
+  .back-to-main {
+    margin-top: 6vw;
+    background-color: black;
+    color: white;
+    width: 66vw;
+    font-size: 3.3vw;
+    text-align: center;
+    padding: 4.5vw;
+    transition: transform 0.3s ease-in-out;
+  }
+  #a1header {
+    left: 76vw;
+    top: 4.8vw;
+  }
+  #a2header {
+    left: 85.6vw;
+    top: 109.8vw;
+  }
+  #a3header {
+    left: 87vw;
+    top: 47.5vw;
+  }
+  #a4header {
+    left: 74vw;
+    top: 80.4vw;
+  }
+  #a5header {
+    left: 63.65vw;
+    top: 6.8vw;
+  }
+  #a6header {
+    left: 32.4vw;
+    top: 4.8vw;
+  }
+  #a7header {
+    left: 10vw;
+    top: 3.9vw;
+  }
+  #a8header {
+    left: 6vw;
+    top: 23.4vw;
+  }
+  #a9header {
+    left: 7.5vw;
+    top: 48.9vw;
+  }
+  #a10header {
+    left: 2vw;
+    top: 77.4vw;
+  }
+  #a11header {
+    left: 18.4vw;
+    top: 117vw;
+  }
 }

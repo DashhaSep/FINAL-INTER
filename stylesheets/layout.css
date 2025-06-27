@@ -1986,6 +1986,7 @@ input {
 .about-text-two-phone,
 .about-text-three-phone,
 .about-image-two-phone,
+.about-text-four-phone,
 .about-text-five-phone,
 .about-image-four-phone,
 .big-text-two-phone,
@@ -1993,6 +1994,7 @@ input {
 .big-text-three-phone,
 .descr-one-phone,
 .descr-two-phone,
-.wrsh-img-phone {
+.wrsh-img-phone,
+.error-text-phone {
   display: none;
 }

@@ -5,6 +5,13 @@
   opacity: 0.5;
   margin-top: 20vw;
 } */
+/* body {
+  background-image: url(../images/404\ тел.jpg);
+  width: 390px;
+  height: 10000px;
+  opacity: 0.5;
+  margin-top: 54vw;
+} */
 @media screen and (max-width: 500px) {
   body > nav {
     overflow: hidden;
@@ -835,14 +842,14 @@
     font-size: 33.152vw;
     font-weight: 500;
     color: grey;
-    margin-top: 20vw;
+    margin-top: 49vw;
   }
   .error-text-phone {
     display: flex;
     color: #626262;
     font-size: 4.6vw;
     font-style: normal;
-    margin-top: 14vw;
+    margin-top: 4vw;
     line-height: 1.6;
     margin-left: 16vw;
     text-align: center;
@@ -851,7 +858,7 @@
     display: none;
   }
   .back-to-main {
-    margin-top: 6vw;
+    margin-top: 7vw;
     background-color: black;
     color: white;
     width: 66vw;
@@ -861,47 +868,80 @@
     transition: transform 0.3s ease-in-out;
   }
   #a1header {
-    left: 76vw;
-    top: 4.8vw;
+    left: -1vw;
+    top: 162.8vw;
+  }
+  #a1 {
+    width: 45.319vw;
+    rotate: 30deg;
+    height: 42.36vw;
   }
   #a2header {
-    left: 85.6vw;
-    top: 109.8vw;
+    left: 69.6vw;
+    top: 24.8vw;
+  }
+  #a2 {
+    width: 23.65vw;
+    height: 23.19vw;
   }
   #a3header {
-    left: 87vw;
-    top: 47.5vw;
+    left: 69vw;
+    top: 137.5vw;
+  }
+  #a3 {
+    width: 19.65vw;
+    height: 19.19vw;
   }
   #a4header {
-    left: 74vw;
-    top: 80.4vw;
+    left: 59vw;
+    top: 180.4vw;
+  }
+  #a4 {
+    position: absolute;
+    z-index: 9;
+    width: 35.65vw;
+    rotate: 32deg;
+    height: 23.19vw;
   }
   #a5header {
-    left: 63.65vw;
-    top: 6.8vw;
+    left: -0.35vw;
+    top: 40.8vw;
+  }
+  #a5 {
+    width: 24.6vw;
+    height: 19.19vw;
   }
   #a6header {
-    left: 32.4vw;
-    top: 4.8vw;
+    left: 20.4vw;
+    top: 15.8vw;
+  }
+  #a6 {
+    width: 33.65vw;
+    height: 29.19vw;
   }
   #a7header {
-    left: 10vw;
-    top: 3.9vw;
+    display: none;
   }
   #a8header {
-    left: 6vw;
-    top: 23.4vw;
+    display: none;
   }
   #a9header {
-    left: 7.5vw;
-    top: 48.9vw;
+    left: 36.5vw;
+    top: 150.9vw;
+  }
+  #a9 {
+    width: 26.65vw;
+    height: 24.19vw;
   }
   #a10header {
-    left: 2vw;
-    top: 77.4vw;
+    display: none;
   }
   #a11header {
-    left: 18.4vw;
-    top: 117vw;
+    left: 12.4vw;
+    top: 133vw;
+  }
+  #a11 {
+    width: 24.65vw;
+    height: 26.19vw;
   }
 }

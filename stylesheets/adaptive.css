@@ -71,7 +71,7 @@
   #burger.active + .main-menu {
     transform: translateX(0);
     transition: transform ease 0.6s;
-    z-index: 1;
+    z-index: 2;
     margin-top: 4vw;
   }
   .links {
@@ -734,5 +734,101 @@
     margin-left: 2.2vw;
     margin-top: 25.8vw;
     padding-bottom: 14vw;
+  }
+  .modal,
+  .modal2,
+  .modal3,
+  .modal4 {
+    width: 75.8vw;
+    height: 117.08vw;
+    margin-left: 11vw;
+    margin-top: 1.95vw;
+  }
+  .forma-title {
+    font-size: 3.319vw;
+  }
+  .whole-exp-two,
+  .whole-exp-four {
+    display: none;
+  }
+  .exp-page-podval-links {
+    display: none;
+  }
+  .wrksh-1-text {
+    font-size: 1.97vw;
+  }
+  .wrkshp-1,
+  .wrkshp-3,
+  .wrkshp-2-2,
+  .wrkshp-4-2 {
+    display: none;
+  }
+  .to-hide {
+    margin-top: 325vw;
+  }
+  .wrkshp-1-2 {
+    margin-left: 22.2vw;
+    width: 58vw;
+    height: 84vw;
+    margin-top: 19.7vw;
+  }
+  #fixed-text-1 {
+    display: flex;
+
+    z-index: 1;
+  }
+  .wrkshp-2 {
+    /* width: 60.7vw; */
+    height: 52.48vw;
+    margin-left: 12.1vw;
+    margin-top: 107.5vw;
+  }
+  .wrkshp-3-2 {
+    margin-left: 19.6vw;
+    width: 57vw;
+    height: 110vw;
+    margin-top: 150vw;
+  }
+  .wrkshp-4 {
+    width: 75.7vw;
+    /* height: 66.48vw; */
+    margin-left: 14.1vw;
+    margin-top: 256.5vw;
+  }
+  .modal,
+  .modal3,
+  .korzina {
+    display: none;
+  }
+  .back-to-main-and-shop {
+    display: flex;
+    gap: 9vw;
+    margin-left: 11vw;
+    margin-top: 14vw;
+  }
+  .waiting {
+    font-size: 3.6vw;
+    text-align: center;
+    margin-top: 47vw;
+    font-family: "Inter";
+    font-weight: 500;
+  }
+  .back-to-main-button,
+  .back-to-shop-button {
+    width: 35.2vw;
+    height: 4vw;
+    background-color: #1a1a1a;
+    padding-top: 2.7vw;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .back-to-shop-button p,
+  .back-to-main-button p {
+    font-size: 2vw;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  .shop-page-card-one-plus-two {
+    display: none;
   }
 }
